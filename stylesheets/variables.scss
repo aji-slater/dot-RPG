@@ -1,0 +1,7 @@
+$dot-width: 20px;
+$dot-height: $dot-width;
+
+$rowcol-num: 15;
+$gutter: 5px;
+$gameboard-width: ($dot-width * $rowcol-num) + ($gutter * ($rowcol-num - 1));
+$gameboard-height: $gameboard-width;
