@@ -2,8 +2,8 @@ window.DOTS = {};
 dots = window.DOTS;
 
 document.addEventListener('DOMContentLoaded', function(event) {
-  dots.game.init();
-
+  dots.game.createGameBoard();
+  dots.gameBoard.populate();
 });
 
 dots.game = {
@@ -11,11 +11,12 @@ dots.game = {
   gutterSize: 5,
   rowColumnNumber: 15,
 
-  init: function() {
+  createGameBoard: function() {
     dots.gameBoard = new gameBoard({
       dotSize: dots.dotSize,
       gutterSize: dots.gutterSize,
       rowColumnNumber: dots.rowColumnNumber
-    }).instantiate();
+    });
+    dots.gameBoard.instantiate();
   }
 }
