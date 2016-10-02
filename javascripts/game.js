@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
 dots.game = {
   dotSize: 20,
   gutterSize: 5,
-  rowColumnNumber: 15,
+  rowColumnNumber: 12,
 
   createGameBoard: function() {
     dots.gameBoard = new gameBoard({

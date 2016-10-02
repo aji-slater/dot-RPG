@@ -4,6 +4,7 @@ function Dot(optionsObject) {
   this.row = optionsObject.row;
   this.col = optionsObject.col;
   this.color = optionsObject.color;
+  this.instantiate();
 }
 
 //////////////////////////// HIGH LEVEL DEFINITIONS
@@ -13,6 +14,10 @@ Dot.prototype.instantiate = function() {
   this.setStyle(newDot);
 
   document.querySelector('.gameboard').appendChild(newDot);
+}
+
+Dot.randomColor = function() {
+  return u.getRandomIntInclusive(1, 5);
 }
 
 //////////////////////////// SPECIFICS

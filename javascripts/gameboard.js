@@ -25,10 +25,9 @@ gameBoard.prototype.populate = function() {
       var dot = new Dot({
                       row: y,
                       col: x,
-                      color: 1
+                      color: Dot.randomColor()
                     });
 
-      dot.instantiate();
       dots.gameBoard.dots.push(dot);
     }
   }
