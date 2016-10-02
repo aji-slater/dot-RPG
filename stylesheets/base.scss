@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 50px;
+}
+
+.gameboard {
+  background-color: $color-board;
+  width: $gameboard-width;
+  height: $gameboard-height;
+  margin: 0 auto;
+}

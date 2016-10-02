@@ -1,0 +1,4 @@
+@mixin dot {
+  border-radius: 50%;
+  width: $dot-width; height: $dot-width;
+}
