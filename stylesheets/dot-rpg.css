@@ -6,6 +6,101 @@ body {
 
 .gameboard {
   background-color: #d7d7d7;
+  position: relative;
   margin: 0 auto; }
+
+.dot {
+  transition: top .5s ease-in-out, left .5s ease-in-out;
+  border: 2px solid black; }
+
+.row-1 {
+  top: 0px; }
+
+.row-2 {
+  top: 25px; }
+
+.row-3 {
+  top: 50px; }
+
+.row-4 {
+  top: 75px; }
+
+.row-5 {
+  top: 100px; }
+
+.row-6 {
+  top: 125px; }
+
+.row-7 {
+  top: 150px; }
+
+.row-8 {
+  top: 175px; }
+
+.row-9 {
+  top: 200px; }
+
+.row-10 {
+  top: 225px; }
+
+.row-11 {
+  top: 250px; }
+
+.row-12 {
+  top: 275px; }
+
+.row-13 {
+  top: 300px; }
+
+.row-14 {
+  top: 325px; }
+
+.row-15 {
+  top: 350px; }
+
+.col-1 {
+  left: 0px; }
+
+.col-2 {
+  left: 25px; }
+
+.col-3 {
+  left: 50px; }
+
+.col-4 {
+  left: 75px; }
+
+.col-5 {
+  left: 100px; }
+
+.col-6 {
+  left: 125px; }
+
+.col-7 {
+  left: 150px; }
+
+.col-8 {
+  left: 175px; }
+
+.col-9 {
+  left: 200px; }
+
+.col-10 {
+  left: 225px; }
+
+.col-11 {
+  left: 250px; }
+
+.col-12 {
+  left: 275px; }
+
+.col-13 {
+  left: 300px; }
+
+.col-14 {
+  left: 325px; }
+
+.col-15 {
+  left: 350px; }
 
 /*# sourceMappingURL=dot-rpg.css.map */

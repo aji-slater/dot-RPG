@@ -20,7 +20,7 @@ Dot.prototype.instantiate = function() {
 Dot.prototype.colorChart = {
   '1': 'rgb(23, 97, 196)',
   '2': 'rgb(226, 27, 27)',
-  '3': 'rgb(87, 59, 11)',
+  '3': 'rgb(255, 255, 255)',
   '4': 'rgb(76, 170, 53)',
   '5': 'rgb(225, 238, 51)',
   '6': 'rgb(173, 0, 255)'
@@ -31,9 +31,10 @@ Dot.prototype.parseColorVariable = function(colorID) {
 }
 
 Dot.prototype.setStyle = function(el) {
+  el.className = 'dot row-' + this.row + ' col-' + this.col;
+  el.style.position = 'absolute';
   el.style.borderRadius = '50%';
   el.style.backgroundColor = this.parseColorVariable(this.color);
   el.style.height = this.height.toString() + 'px';
   el.style.width = this.width.toString() + 'px';
-  
 };
