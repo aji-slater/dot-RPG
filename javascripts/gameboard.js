@@ -1,9 +1,6 @@
 function gameBoard(optionsObject) {
   if (!optionsObject) {optionsObject = {};}
 
-  this.dotSize = optionsObject.dotSize;
-  this.gutterSize = optionsObject.gutterSize;
-  this.rowColumnNumber = optionsObject.rowColumnNumber;
 }
 
 gameBoard.prototype.instantiate = function() {
@@ -16,7 +13,7 @@ gameBoard.prototype.instantiate = function() {
 };
 
 gameBoard.prototype.calculateBoardSize = function() {
-  var totalDots = this.dotSize * this.rowColumnNumber;
-  var totalGutters = this.gutterSize * (this.rowColumnNumber - 1);
+  var totalDots = dots.game.dotSize * dots.game.rowColumnNumber;
+  var totalGutters = dots.game.gutterSize * (dots.game.rowColumnNumber - 1);
   return (totalDots + totalGutters).toString() + 'px';
 };
