@@ -8,9 +8,10 @@ document.addEventListener('DOMContentLoaded', function(event) {
 
 dots.game = {
   init: function() {
-    dots.gameBoard = new Gameboard({
-      dotSize: '20px',
-      gutterSize: '5px'
-    });
+    dots.gameBoard = new gameBoard({
+      dotSize: 20,
+      gutterSize: 5,
+      rowColumnNumber: 15
+    }).instantiate();
   }
 }
