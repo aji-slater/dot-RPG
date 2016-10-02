@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,CAAE;EACA,UAAU,EAAE,UAAU;;AAGxB,IAAK;EACH,OAAO,EAAE,IAAI;;AAGf,UAAW;EACT,gBAAgB,ECGJ,OAAW;EDFvB,KAAK,EEJY,KAAgB;EFKjC,MAAM,EELW,KAAgB;EFMjC,MAAM,EAAE,MAAM",
-"sources": ["base.scss","color.scss","variables.scss"],
+"mappings": "AAAA,CAAE;EACA,UAAU,EAAE,UAAU;;AAGxB,IAAK;EACH,OAAO,EAAE,IAAI;;AAGf,UAAW;EACT,gBAAgB,ECGJ,OAAW;EDFvB,MAAM,EAAE,MAAM",
+"sources": ["base.scss","color.scss"],
 "names": [],
 "file": "dot-rpg.css"
 }
